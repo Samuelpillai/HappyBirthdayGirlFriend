@@ -17,16 +17,17 @@
         body {
             min-height: 100vh;
             background: linear-gradient(135deg,
-                    #ffd1dc 0%,
-                    #e6e6fa 25%,
-                    #ffefd5 50%,
-                    #e6e6fa 75%,
-                    #ffd1dc 100%);
+                    #0e051c 0%,
+                    #1f0b35 25%,
+                    #140526 50%,
+                    #2c0e4c 75%,
+                    #0e051c 100%);
             background-size: 400% 400%;
             animation: gradientFlow 15s ease infinite;
             font-family: 'Quicksand', sans-serif;
             overflow-x: hidden;
-            color: #4a4a4a;
+            color: #e2d5f3;
+            color-scheme: dark;
         }
 
         @keyframes gradientFlow {
@@ -170,10 +171,12 @@
         }
 
         .memory-card {
-            background: rgba(255, 255, 255, 0.9);
+            background: rgba(35, 12, 60, 0.7);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 105, 180, 0.15);
             border-radius: 20px;
             padding: 1.5rem;
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
             transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
             position: relative;
             overflow: hidden;
@@ -223,18 +226,20 @@
         .memory-caption {
             font-size: 1rem;
             line-height: 1.5;
-            color: #666;
+            color: #cbbad6;
         }
 
         /* Final Message Section */
         .final-message {
             text-align: center;
             padding: 4rem 2rem;
-            background: rgba(255, 255, 255, 0.3);
+            background: rgba(35, 12, 60, 0.4);
             backdrop-filter: blur(10px);
             margin-top: 3rem;
             position: relative;
             z-index: 3;
+            border-top: 1px solid rgba(255, 105, 180, 0.15);
+            border-bottom: 1px solid rgba(255, 105, 180, 0.15);
         }
 
         .final-message h2 {
@@ -334,7 +339,7 @@
         }
 
         ::-webkit-scrollbar-track {
-            background: rgba(255, 255, 255, 0.4);
+            background: rgba(35, 12, 60, 0.6);
         }
 
         ::-webkit-scrollbar-thumb {
@@ -377,32 +382,84 @@
 
     <div class="memory-container">
         <div class="memory-card">
-            <img src="./d1.jpg" alt="First Date" class="memory-img">
-            <div class="memory-date">Her Smile Says It All</div>
-            <div class="memory-caption">You’re truly one of the sweetest girls I know, and I feel lucky to have a sis
-                like you.❤️</div>
+            <img src="./Midnight-Elegance.jpeg" alt="First Date" class="memory-img">
+            <div class="memory-date">Midnight Elegance</div>
+            <div class="memory-caption">The way you looked that night felt unreally special. Your beautiful eyes, fearless attitude, and a smile powerful enough to stop my world for a moment.🖤✨</div>
         </div>
         <div class="memory-card">
-            <img src="./d2.jpg" alt="Beach Day" class="memory-img">
-            <div class="memory-date">Together Vibes</div>
-            <div class="memory-caption">May your journey ahead be filled with happiness, success, and endless
-                smiles.😊💕</div>
+            <img src="./Pub-Lights&Smilles.jpeg" alt="Beach Day" class="memory-img">
+            <div class="memory-date">Pub Lights & Smiles</div>
+            <div class="memory-caption">Between the loud music and city lights, your smile became my favorite part of the night.🍷💫</div>
         </div>
         <div class="memory-card">
-            <img src="./d3.jpg" alt="Movie Night" class="memory-img">
-            <div class="memory-date">Pretty Soul</div>
-            <div class="memory-caption">Keep being the amazing person you are—you make every moment brighter.🌸💖</div>
+            <img src="./Metro-Love-Stories.jpeg" alt="Movie Night" class="memory-img">
+            <div class="memory-date">Metro Love Stories</div>
+            <div class="memory-caption">Two silly kiss faces, one moving train, and a memory that still makes my heart smile every time I think about it.🚇💋</div>
+        </div>
+        <div class="memory-card">
+            <img src="./Shilae-Shilae-Moments.jpeg" alt="Movie Night" class="memory-img">
+            <div class="memory-date">Shilae Shilae Moments</div>
+            <div class="memory-caption">A little cheek kiss, your adorable reactions, and our tiny world inside a crowded metro that moment felt like home.💕</div>
+        </div>
+        <div class="memory-card">
+            <img src="./The-Beginning-of-Us.jpeg" alt="Movie Night" class="memory-img">
+            <div class="memory-date">The Beginning of Us</div>
+            <div class="memory-caption">Our very first selfie together, the moment “me” slowly started becoming “us.”✨❤️</div>
+        </div>
+        <div class="memory-card">
+            <img src="./Cute-Little-Cat-Cheeks.jpeg" alt="Movie Night" class="memory-img">
+            <div class="memory-date">Cute Little Cat Cheeks</div>
+            <div class="memory-caption">Your adorable chubby cheeks, that innocent smile, and the way you looked at me made my heart melt completely.🐾💖</div>
+        </div>
+        <div class="memory-card">
+            <img src="./Our-Chinese-Date-Night.jpeg" alt="Movie Night" class="memory-img">
+            <div class="memory-date">Our Chinese Date Night</div>
+            <div class="memory-caption">Good food, your pretty smile, and a small kiss on your cheek somehow the simplest nights became the most unforgettable with you.🥢💋</div>
+        </div>
+        <div class="memory-card">
+            <img src="./Graduation-Day-Together.jpeg" alt="Movie Night" class="memory-img">
+            <div class="memory-date">Graduation Day Together</div>
+            <div class="memory-caption">Among all the achievements and celebrations, you were still the most beautiful thing I saw that day in your white outfit and heels.🎓🤍</div>
+        </div>
+        <div class="memory-card">
+            <img src="./Fireworks&Forever-Memories.jpeg" alt="Movie Night" class="memory-img">
+            <div class="memory-date">Fireworks & Forever Memories</div>
+            <div class="memory-caption">Under the New Year fireworks near the Newcastle bridge, I quietly wished that moments like this with you would never end.🎆❤️</div>
+        </div>
+        <div class="memory-card">
+            <img src="./Wine&Moonlight-Beauty.jpeg" alt="Movie Night" class="memory-img">
+            <div class="memory-date">Wine & Moonlight Beauty</div>
+            <div class="memory-caption">Holding that wine glass with your gorgeous smile shining brighter than everything around you, the night was effortlessly breathtaking.🍷✨</div>
+        </div>
+        <div class="memory-card">
+            <img src="./Flower-Girl-Moments.jpeg" alt="Movie Night" class="memory-img">
+            <div class="memory-date">Flower Girl Moments</div>
+            <div class="memory-caption">That tiny flower in your shining hair, your cute little expressions, and the way you rested close to me you looked like the prettiest soft soul in my world that day.🌸💖</div>
+        </div>
+        <div class="memory-card">
+            <img src="./Matching-Hearts.jpeg" alt="Movie Night" class="memory-img">
+            <div class="memory-date">Matching Hearts</div>
+            <div class="memory-caption">Matching black sweatshirts, blue jeans, your favorite version of my beard, and us smiling together like our little world was finally complete.🖤✨</div>
         </div>
 
     </div>
 
     <section class="final-message">
-        <h2>Thank You for the Memories</h2>
-        <p>Every laugh, every chat, and every moment we’ve shared has been truly special.💫<br>
-            I’m so grateful for the bond we have, and for the positivity you always bring into my life.<br>
-            On your birthday, I just wish for endless happiness, love, and success to come your way.🌸</p>
-        <p>You deserve all the joy in the world—keep shining and spreading your beautiful energy.✨</p>
-        <a href="#" class="goodbye-btn">Until We Meet Again 💝</a>
+        <h2>Thank You for the Memories & Even If It Hurts It’s All Worth It ✨</h2>
+        <p>Not every love story gets a perfect ending, but that doesn’t make the memories any less real.  
+
+        Every metro ride, every silly “shilae shilae,” every cheek kiss, every late night conversation, and every moment beside you became a part of me in ways I never expected. 💫</p>  
+        <p>You came into my life and changed it quietly.  
+
+        You showed me softness when my world was rough, love when I didn’t fully understand it, and care when I probably deserved less.  
+
+        Somewhere between your smile, your voice, your adorable expressions, and the way you held my hand, you became my safest place. ❤️</p>
+        <p>I know I made mistakes, and maybe I realized your worth too late.  
+
+        But every memory here was real to me, and every picture carries a piece of happiness I’ll never regret feeling.  
+
+        No matter where life takes us, a part of me will always be grateful that someone as beautiful as you once called me “Chinna & Kalla.” 🌸</p>
+        <a href="#" class="goodbye-btn">Forever Your Kalla 💝</a>
     </section>
 </body>
 

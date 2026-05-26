@@ -9,12 +9,14 @@
 
 body {
     min-height: 100vh;
-    background: linear-gradient(-45deg, #ffe6e6, #e6e6ff, #ffebf5);
+    background: linear-gradient(-45deg, #0e051c, #1f0b35, #140526, #2c0e4c);
     background-size: 400% 400%;
     animation: gradientBG 15s ease infinite;
     font-family: 'Quicksand', sans-serif;
     overflow-x: hidden;
     padding: 2rem;
+    color: #e2d5f3;
+    color-scheme: dark;
 }
 
 .custom-cursor {
@@ -51,11 +53,13 @@ h1 {
 }
 
 .reason-card {
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(35, 12, 60, 0.7);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 105, 180, 0.15);
     border-radius: 20px;
     padding: 2rem;
     margin: 1.5rem;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
     transition: transform 0.3s, box-shadow 0.3s;
     cursor: pointer;
     position: relative;
@@ -69,6 +73,7 @@ h1 {
 
 .reason-text {
     font-size: 1.2rem;
+    color: #f3e8ff;
     margin-bottom: 1rem;
     position: relative;
     z-index: 2;
@@ -80,7 +85,7 @@ h1 {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(35, 12, 60, 0.95);
     display: flex;
     align-items: center;
     justify-content: center;

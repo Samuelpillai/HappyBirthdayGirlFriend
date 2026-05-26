@@ -1,24 +1,19 @@
  // Reasons database
  const reasons = [
     { 
-        text: "You’re such a kind and wonderful person, and I feel lucky to share such a good bond with you. 💖", 
+        text: "Hey Anci, happy birthday. I truly hope your 24th year brings you peace, happiness, love, and every beautiful thing you deserve. Someone with a heart as kind as yours deserves endless smiles and warmth, and I genuinely believe Jesus will bless you abundantly for the goodness you carry inside you. No matter what happened between us, I will always admire your kindness. You had this rare ability to make everyone feel loved, understood, and cared for, even when you were silently struggling yourself. That softness in your heart is something this world rarely sees anymore.I know I hurt you, and I know my mistakes destroyed something precious we built with love and trust. But every good thing I ever said about you was true. You changed me in ways I never expected. Even now, I remember your smile, your voice, your “shilae shilae,” and the way you made ordinary moments feel magical. Thank you for every memory and every piece of love you gave me. 💖", 
         emoji: "🌟",
         gif: "gif1.gif"
     },
     { 
-        text: "May your day be filled with love, laughter, and endless joy. 🌸 ", 
+        text: "What I love most about you is your heart. Beyond your beauty, adorable expressions, and your cute little “shilae shilae,” it was your kindness that made you unforgettable to me. The way you smiled, spoke gently, and made people feel comfortable slowly became my favorite part of life. Your cuteness was never just about your looks. It was in the way you cared for people, checked on them, listened to them, and tried to make everyone feel loved even when you were tired yourself. You had this warmth that naturally comforted people without even trying. Our story may not have started perfectly, and maybe it ended more painfully than either of us imagined, but despite everything, you became one of the most meaningful parts of my life. Every moment we shared was real to me, and I will always carry those memories in my heart. 🌸 ", 
         emoji: "💗",
         gif: "gif2.gif"
     },
     { 
-        text: "Wishing you success, happiness, and everything your heart desires. ✨ ", 
+        text: "Our story may not have started perfectly, and maybe it ended more painfully than either of us imagined, but despite everything, you became one of the most meaningful parts of my life. Every moment we shared was real to me, and I will always carry those memories in my heart. Before you, I never truly understood certain emotions or even certain parts of myself. You changed the way I looked at love and life. Through you, I learned how beautiful simple moments could feel holding hands, laughing at silly things, hearing your cute voice, and feeling peace just by being beside you. I genuinely dreamed about a future with you. I imagined growing together, traveling together, and building a peaceful life side by side. But somewhere along the way, my mistakes and inability to understand your heart shattered those dreams. Still, no matter where life takes us now, I’ll always be grateful for the love, warmth, and memories you once gave me. ✨ ", 
         emoji: "💕",
-        gif: "gif1.gif"
-    },
-    { 
-        text: "Stay the amazing girl you are—always spreading positivity around. Have the happiest year ahead! 🥳 ", 
-        emoji: "🌟",
-        gif: "gif2.gif"
+        gif: "gif3.gif"
     }
 ];
 
